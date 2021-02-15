@@ -13,6 +13,11 @@ Feel free to modify it and upload more themes, the theme you can find right now 
 
 ---
 
+# WM env var
+I think this is the cleanest and less bloated way to detect for an environment. No need for fancy stuff like ufetch does, an env var is more than enough.
+
+---
+
 # Fedora
 The Fedora script got many versions
 
