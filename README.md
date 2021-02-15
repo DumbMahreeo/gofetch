@@ -20,10 +20,4 @@ The Fedora script got many versions
 * Cached: The one where the number of packages is read from a cache file (described in the source file)
 * DBversion: The one where to get the list of installed packages `/var/cache/dnf/packages.db` is queried
 
-(I suggest the dbversion or the standard one. I use the dbversion)
-
-# Cat
-Why am I spawning a `cat` process instead of opening the file directly from the script?
-
-I did it in older versions but I felt like it was unnecessary.
-
+(I suggest the dbversion or the standard one. When I was on Fedora I used the dbversion)

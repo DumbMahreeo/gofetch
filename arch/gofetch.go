@@ -21,7 +21,7 @@ func do(cmd string, args ...string) string {
 func main() {
 
 	user := do("whoami")
-	host := do("cat", "/etc/hostname")
+	host := do("hostname")
 	osname := "Arch Linux"                 // might add other systems in the future
 	kernel := do("uname", "-sr")
 	uptime := do("uptime", "-p")[3:]
