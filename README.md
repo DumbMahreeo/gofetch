@@ -29,5 +29,18 @@ The Fedora script got many versions
 
 ---
 
+# Installation
+
+example of an arch installation
+
+```bash
+git clone https://DumbMahreeo/gofetch
+cd arch # change directory accordingly
+go build -ldflags="-s -w" gofetch.go
+sudo mv gofetch /usr/bin/
+```
+
+---
+
 # Rufetch
 Right now I'm doing [this but in Rust](https://github.com/DumbMahreeo/rufetch), so probably I won't make any more of these ones.
