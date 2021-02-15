@@ -21,3 +21,8 @@ The Fedora script got many versions
 * DBversion: The one where to get the list of installed packages `/var/cache/dnf/packages.db` is queried
 
 (I suggest the dbversion or the standard one. When I was on Fedora I used the dbversion)
+
+---
+
+# Rufetch
+Right now I'm doing [this but in Rust](https://github.com/DumbMahreeo/rufetch), so probably I won't make any more of these ones.
