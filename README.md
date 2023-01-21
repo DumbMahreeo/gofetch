@@ -1,3 +1,9 @@
+# Deprecated
+
+Use this one instead -> [DumbMahreeo/rockfetch](https://github.com/DumbMahreeo/rockfetch)
+
+---
+
 # Gofetch
 Just my little fetch scripts written in Go. Mostly made to replace ufetch
 
@@ -23,9 +29,9 @@ The Fedora script got many versions
 
 * Standard: The one where every time `dnf list installed` is called every time
 * Cached: The one where the number of packages is read from a cache file (described in the source file)
-* DBversion: The one where to get the list of installed packages `/var/cache/dnf/packages.db` is queried
+* DBversion: The one where to get the list of installed packages, `/var/cache/dnf/packages.db` is queried
 
-(I suggest the dbversion or the standard one. When I was on Fedora I used the dbversion)
+(I suggest the dbversion)
 
 ---
 
@@ -39,8 +45,3 @@ cd arch # change directory accordingly
 go build -ldflags="-s -w" gofetch.go
 sudo mv gofetch /usr/bin/
 ```
-
----
-
-# Rufetch
-Right now I'm doing [this but in Rust](https://github.com/DumbMahreeo/rufetch), so probably I won't make any more of these ones.
